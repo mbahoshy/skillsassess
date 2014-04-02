@@ -1,0 +1,101 @@
+body {
+	background-color: #F3F1F3;
+	font-size: 11px;
+	color: #777777;
+	font-family: 'Verdana';
+	margin:0;
+}
+
+.wrapper h2, h3 {
+	font-family: 'Arial';
+	color:#333333;
+	font-weight: normal;
+
+}
+
+.wrapper h2 {
+	font-size: 40px;
+}
+
+.wrapper h3 {
+	font-size: 16px;
+}
+
+#header {
+	background-color: #E6E6E6;
+	height:324px;
+	/*float:left;*/
+}
+
+.wrapper {
+	max-width: 942px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+
+.title-line {
+	padding: 67px 0 20px 74px;
+	width:519px;
+	float:left;
+	margin:0;
+}
+
+
+
+.container-box {
+	width: 243px;
+	height: 174px;
+	float:left;
+	background-color: white;
+	padding:30px;
+	margin-right: 16px;
+}
+
+.container-box h3 {
+	width:175px;
+	float:right;
+	margin:0;
+	padding:0 0 0 5px;
+}
+
+.container-box p {
+	width:66%;
+	margin:20px 0 0 0;
+}
+
+/* utility classes */
+
+.fleft {
+	float:left;
+}
+
+.margin-none  {
+	margin:0 !important;
+}
+
+.clear {
+	clear:both;
+}
+
+#container_box_wrapper {
+	margin-top: -20px;
+}
+
+.two-thirds {
+	width:46%;
+	padding: 0 10%;
+	float:left;
+	font-size: 12px !important;
+	color: #202020 !important;
+	
+}
+
+.one-third {
+	width:34%;
+	float:left;
+	font-style: italic;
+	font-family: 'Arial';
+	font-size: 12px !important;
+	color: #202020 !important;
+}
