@@ -6,6 +6,20 @@ body {
 	margin:0;
 }
 
+body p {
+	line-height: 1.5em;
+}
+
+/* wrapper and header styling */
+
+.wrapper {
+	max-width: 942px;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+
 .wrapper h2, h3 {
 	font-family: 'Arial';
 	color:#333333;
@@ -21,27 +35,26 @@ body {
 	font-size: 16px;
 }
 
+
 #header {
 	background-color: #E6E6E6;
 	height:324px;
+	padding-top:40px;
+	width:100%;
 	/*float:left;*/
 }
 
-.wrapper {
-	max-width: 942px;
-	margin-left: auto;
-	margin-right: auto;
-	position:relative;
-}
-
 .title-line {
-	padding: 67px 0 20px 74px;
-	width:519px;
+	padding: 27px 0 20px 74px;
+	width:45%;
+	/*width:519px;*/
 	float:left;
 	margin:0;
 }
 
-
+#signup_img {
+	padding-left: 74px;
+}
 
 .container-box {
 	width: 243px;
@@ -83,19 +96,42 @@ body {
 }
 
 .two-thirds {
-	width:46%;
-	padding: 0 10%;
+	width:45%;
+	padding: 0 11%;
 	float:left;
 	font-size: 12px !important;
 	color: #202020 !important;
-	
+
+}
+
+.two-thirds p {
+	width:80%;
 }
 
 .one-third {
-	width:34%;
+	width:33%;
 	float:left;
-	font-style: italic;
+
+}
+
+#testimonial {
 	font-family: 'Arial';
 	font-size: 12px !important;
 	color: #202020 !important;
+	margin-top: 40px;
+}
+
+#testimonial p {
+	font-style: italic;
+}
+
+#footer {
+	background-color: #FF762D;
+	color:white;
+	float:left;
+	width:100%;
+}
+
+#footer .wrapper {
+	padding-left:11% !important;
 }
