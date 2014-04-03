@@ -1,6 +1,15 @@
 <html>
 <head>
 	<link rel='stylesheet' href='main.css' />
+	<script src="jquery.js"></script>
+	<script type='text/javascript'>
+		$(window).on('resize', function () {
+			var width = $(window).width();
+			if (width < 850) {
+				
+			}
+		});
+	</script>
 </head>
 <body>
 	<div id='header'>
@@ -13,6 +22,7 @@
 			</div>
 		</div>
 	</div>
+	<div class='clear'></div>
 	<div id='container_box_wrapper' class='wrapper'>
 		<div class='container-box'>
 			<img class='fleft' src='imgs/icon1.jpg'	/>
@@ -38,8 +48,9 @@
 		</div>
 
 	</div>
-	<div class='wrapper'>
-		<div class='two-thirds'>
+	<div class='clear'></div>
+	<div id='middle_content' class='wrapper'>
+		<div id='description' class='two-thirds'>
 			<h2>Completely restore ubiquitous scenarios vis-a-vis high standards</h2>
 			<p>Completely restore ubiquitous scenarious vis-a-vis high standards in users. Energetically synergize process-centric benefits wheras equity invested solutions. Objectively supply resource-leveling processes without cutting-edge technology. Compelling reintermediate world-class communities without innovative methodologies. Interactively target goal-oriented paradigms for state of the art e-business.</p>
 			<p> Authoritatively enable scalable synergy rather than B2B customer service. Continually iterate B2B architectures and economically sound infrastructures. Synergistically predominate go forward materials rather than focused channels. Dynamically generate visionary mindshare whereas holistic e-business. Dramatically extend emerging results with intuitive ROI.</p>
@@ -52,24 +63,60 @@
 		</div>
 
 	</div>
-
+	<div class='clear'></div>
 	<div id='footer'>
 		<div class='wrapper'>
-			<div class='two-third'>
-				<div class='one-third'>
-					<p>Shope iStock</p>
-					<p>Homepage</p>
-					<p>Photos</p>
-					<p>Illustrations</p>
-					<p>Video</p>
-					<p>Audio</p>
-					<p>Flash</p>
-					<p>Editorial</p>
-					<p>Participate</p>
-					<p>Articles</p>
-				</div>
+			<div class='link-container'>
+				<ul>
+					<li>Shope iStock</li>
+					<li>Homepage</li>
+					<li>Photos</li>
+					<li>Illustrations</li>
+					<li>Video</li>
+					<li>Audio</li>
+					<li>Flash</li>
+					<li>Editorial</li>
+					<li>Participate</li>
+					<li>Articles</li>
+				</ul>
+				<ul>
+					<li>Shope iStock</li>
+					<li>Homepage</li>
+					<li>Photos</li>
+					<li>Illustrations</li>
+					<li>Video</li>
+					<li>Audio</li>
+					<li>Flash</li>
+				</ul>
+				<ul>
+					<li>Shope iStock</li>
+					<li>Homepage</li>
+					<li>Photos</li>
+					<li>Illustrations</li>
+					<li>Video</li>
+					<li>Audio</li>
+					<li>Flash</li>
+					<li>Editorial</li>
+					<li>Participate</li>
+					<li>Articles</li>
+				</ul>
+				<ul>
+					<li>Shope iStock</li>
+					<li>Homepage</li>
+					<li>Photos</li>
+					<li>Illustrations</li>
+					<li>Video</li>
+					<li>Audio</li>
+					<li>Flash</li>
+					<li>Editorial</li>
+					<li>Participate</li>
+					<li>Articles</li>
+				</ul>
 			</div>
-
+			<div id='footer_right' class='one-third'>
+				<h3>Completely restore ubiquitous scenarios vis-a-vis high standards</h3>
+				<img src='imgs/socialNetworkIcons.fw.png'	/>
+			</div>
 		</div>
 	</div>
 </body>
