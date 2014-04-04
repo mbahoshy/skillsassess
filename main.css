@@ -38,49 +38,159 @@ body p {
 
 #header {
 	background-color: #E6E6E6;
-	height:324px;
+	/*height:324px;*/
 	padding-top:40px;
 	width:100%;
-	/*float:left;*/
+	float:left;
+	border-bottom: 20px solid #E6E6E6;
 }
 
-.title-line {
+#header img {
+	width: 37.04883227%;
+}
+
+#title-line {
+	margin-left: 7.85562632%;
+	width: 55.09554140%;
+}
+
+/*.title-line {
 	padding: 27px 0 20px 74px;
 	width:45%;
-	/*width:519px;*/
-	float:left;
+	width:519px;
+	float:fright;
 	margin:0;
 }
 
 #signup_img {
 	padding-left: 74px;
-}
+}*/
+
 
 .container-box {
-	width: 243px;
 	height: 174px;
 	float:left;
 	background-color: white;
-	padding:30px;
-	margin-right: 16px;
+
 }
 
-.container-box h3 {
-	width:175px;
-	float:right;
-	margin:0;
-	padding:0 0 0 5px;
+
+
+
+
+	.container-box {
+		width: 25.79617834%;
+		padding: 3.18471337%;
+		margin-right: 1.69851380%;
+
+	}
+
+	.container-box h3 {
+		width: 72.42798353%;
+		float:right;
+		margin:0;
+		padding:0 0 0 02.05761316%;
+	}
+
+	.container-box p {
+		width:86%;
+		margin:20px 0 0 0;
+	}
+
+	.container-box img {
+		width: 25.51440329%;
+	}
+
+
+	#container_box_wrapper :last-child {
+		margin: 0;
+	}
+
+
+
+
+
+
+@media screen and (max-width: 870px) {
+	.container-box {
+		width: 43.67816091%;
+		padding: 25px 2.29885057%;
+		margin: 10px .862068965%;
+
+	}
+	
+	.container-box h3 {
+		width: 78.42105263%;
+		float:right;
+		margin:0;
+		padding:10px 0 0 5.26315789%;
+	}
+
+
+
+	.container-box img {
+		width: 16.31578947%;
+		padding-top:10px;
+	}
+
+	#container_box_wrapper :last-child {
+		margin: 10px .862068965%;
+	}
+
+	.container-box p {
+		width:86%;
+		margin:20px 0 0 0;
+		padding-top: 15px;
+	}
+
 }
 
-.container-box p {
-	width:66%;
-	margin:20px 0 0 0;
+@media screen and (max-width: 580px) {
+	.container-box {
+		width: 86.20689655%;
+		padding: 25px 3.44827586%;
+		margin: 10px 3.44827586%;
+
+	}
+	
+	.container-box h3 {
+		width: 79.6%;
+		float:right;
+		margin:0;
+		padding:10px 0 0 8%;
+	}
+
+
+
+	.container-box img {
+		width: 12.4%;
+		padding-top:10px;
+	}
+
+	#container_box_wrapper :last-child {
+		margin: 10px .862068965%;
+	}
+
+	.container-box p {
+		width:86%;
+		margin:20px 0 0 0;
+		padding-top: 15px;
+	}
+
 }
+
+
+
+
 
 /* utility classes */
 
 .fleft {
 	float:left;
+}
+
+.fright {
+	float:right;
 }
 
 .margin-none  {
@@ -92,7 +202,7 @@ body p {
 }
 
 #container_box_wrapper {
-	margin-top: -20px;
+	top: -20px;
 }
 
 #description {
